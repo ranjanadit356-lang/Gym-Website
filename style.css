@@ -1,0 +1,104 @@
+body{
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/031/691/772/non_2x/within-gym-with-modern-fitness-equipment-for-fitness-events-and-more-modern-of-gym-interior-with-equipment-sports-equipment-in-the-gym-created-with-generative-ai-photo.jpg);
+    }
+    .left{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    .left img {
+        width: 136px;
+    }
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+    /* .mid{
+        border: 5px solid green;
+        width: 50px;
+        margin: auto;
+    } */
+    ul{
+        position: absolute;
+        top: 80px;
+        left: 20%;
+        text-align: center;
+        width: 59%;
+        margin: auto;
+        /* border: 5px solid green; */
+        font-size: 30px;
+        padding: 5px;
+    }
+    li{
+        list-style: none;
+        float: left;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: auto;
+        padding: 5px;
+    }
+    a:hover{
+        color: red;
+        cursor: pointer;
+    }
+    a:active{
+        color: yellow;
+    }
+    header{
+        background-color: grey;
+    }
+    .right{
+        /* float: right; */
+        position: absolute;
+        top: 80px;
+        right: 2px;
+    }
+    button{
+        font-size: 30px;
+        font-family: 'Baloo Bhai', cursive;
+        border-radius: 17px;
+        
+    }
+    button:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .form{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+    input{
+        width: 400px;
+        height: 40px;
+        text-align: center;
+        margin: 2px 0px;
+        border-radius: 22px;
+    }
+    #btn{
+        position: absolute;
+        left: 35%;
+        text-align: center;
+        margin: 5px;
+    }
+    .container{
+        border: 2px solid blue;
+        background-color: grey;
+    }
+    h2{
+        text-align: center;
+    }
